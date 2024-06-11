@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS= -I./include
 
-LIBS := amastr.h
+LIBS := amastr.h amastack.h
 
 all: link build
 
